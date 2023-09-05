@@ -6,7 +6,7 @@
 <body>
 <form action="papar.php" method="post">
     <label for="name">Ceritakan tentang diri anda:</label>
-    <textarea id="name" name="description"> </textarea>
+    <textarea id="name" name="description"></textarea>
     <input type="submit" value="Simpan">
 </form>
 </body>
