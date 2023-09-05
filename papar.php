@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="eng">
+<head>
+    <title>Paparan</title>
+</head>
 <body>
 
-<?php $des = $_POST["description"]  ?>
+<?php $des = $_POST["description"] ?>
 Ayat ini Mengandungi <?php echo str_word_count($des) ?> patah perkataan<br>
 Ayat ini Mengandungi <?php echo strlen($des) ?> huruf <br>
 
